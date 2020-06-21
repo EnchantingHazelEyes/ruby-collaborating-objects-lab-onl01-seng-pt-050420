@@ -34,7 +34,7 @@ attr_accessor :name
   end 
 
   def print_songs
-    puts @@all
+    puts @@all.flatten
   end 
 
 end 
