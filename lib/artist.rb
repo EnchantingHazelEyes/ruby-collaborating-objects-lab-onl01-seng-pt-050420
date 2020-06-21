@@ -34,7 +34,7 @@ attr_accessor :name
   end 
 
   def print_songs
-    self.all
+    puts @@all
   end 
 
 end 
