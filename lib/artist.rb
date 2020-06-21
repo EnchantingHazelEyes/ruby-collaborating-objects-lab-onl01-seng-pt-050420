@@ -29,7 +29,7 @@ attr_accessor :name
     if song_found == nil
       new_song = Song.new(name)
     else
-      self.add_song(song_found)
+      add_song(song_found)
     end
   end 
 
