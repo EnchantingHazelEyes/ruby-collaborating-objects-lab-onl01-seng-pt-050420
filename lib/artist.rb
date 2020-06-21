@@ -31,5 +31,6 @@ attr_accessor :name
     else
       add_song(file_found)
     end
+  end 
 
 end 
