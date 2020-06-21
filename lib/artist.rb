@@ -18,7 +18,7 @@ attr_accessor :name
   end 
   
    def add_song(song)
-    song.artist = self
+    @songs = song
   end
  
   def songs
@@ -35,7 +35,7 @@ attr_accessor :name
   end 
 
   def print_songs
-    self.name.each |songs|
+    .each |songs|
     end 
   end 
 
