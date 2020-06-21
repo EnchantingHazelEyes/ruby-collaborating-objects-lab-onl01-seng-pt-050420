@@ -27,9 +27,9 @@ attr_accessor :name
   def self.find_or_create_by_name(name)
     file_found = Song.all.find {|s| s.name == name}
     if file_found == nil
-      new_pokemon = Pokemon.new(name, height)
+      new_file = Song.new(name)
     else
-      add_pokemon(pokemon_found)
+      add_(file_found)
     end
 
 end 
