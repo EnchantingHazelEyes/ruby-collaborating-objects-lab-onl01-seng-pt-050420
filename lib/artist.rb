@@ -29,7 +29,7 @@ attr_accessor :name
     if file_found == nil
       new_file = Song.new(name)
     else
-      add_(file_found)
+      add_song(file_found)
     end
 
 end 
