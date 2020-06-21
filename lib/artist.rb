@@ -37,7 +37,7 @@ attr_accessor :name
 
   def print_songs
     @songs.each do |songs| 
-      puts song.name
+      puts songs.name
     end 
   end 
 
