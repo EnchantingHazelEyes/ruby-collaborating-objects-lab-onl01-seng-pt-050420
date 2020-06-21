@@ -29,7 +29,7 @@ attr_accessor :name
     if artist_found == nil
       new_artist = Artist.new(name)
     else
-      self.all << artist_found
+      artist_found
     end
   end 
 
