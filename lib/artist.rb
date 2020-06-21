@@ -18,8 +18,8 @@ attr_accessor :name
   end 
   
    def add_song(song)
-    self.artist = song
-    @songs = song
+    song.artist = self
+    @songs << song.artist
   end
  
   def songs
