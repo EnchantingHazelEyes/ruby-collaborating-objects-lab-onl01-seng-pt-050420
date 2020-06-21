@@ -25,11 +25,11 @@ attr_accessor :name
   end
   
   def self.find_or_create_by_name(name)
-    song_found = Artist.all.find {|s| s.name == name}
-    if song_found == nil
-      new_song = Artist.new(name)
+    artist_found = Artist.all.find {|a| a.name == name}
+    if artist_found == nil
+      new_artist = Artist.new(name)
     else
-      self.all << song_found
+      self.all << artist_found
     end
   end 
 
